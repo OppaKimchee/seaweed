@@ -1,0 +1,55 @@
+/*
+* Style tweaks
+* --------------------------------------------------
+*/
+
+html, body {
+	overflow-x: hidden;
+	/* Prevent scroll on narrow devices */
+}
+
+body {
+	padding: 50px 0 0 0 !important;
+}
+
+footer {
+	padding: 30px 0;
+}
+
+
+/*
+ * Custom styles
+ */
+
+ .nav-logo {
+	 height: 50px;
+	 width:50px;
+ }
+
+.navbar-brand {
+	font-size: 24px;
+	padding: 0;
+}
+
+.navbar-container {
+	padding: 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+	background-color: rgba(0,0,0,.8);
+	border-color: rgba(0,0,0,.8);
+	box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+}
+
+.navbar-brand.fixed-theme {
+	font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+	padding: 0;
+}
+
+.navbar-brand.fixed-theme, .navbar-container.fixed-theme, .navbar.navbar-fixed-top.fixed-theme, .navbar-brand, .navbar-container {
+	transition: 0.8s;
+	-webkit-transition: 0.8s;
+}
