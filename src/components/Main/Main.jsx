@@ -15,14 +15,14 @@ const Main = (props) => {
 					<div className="jumbotron">
 						<img className='main-logo' src={logo} alt="logo" />
 					</div>
-					<div className="row">
+					{/*<div className="row">
 						<div>
 							<h2>Black Label Gourmet’s Philosophy: Ingredient First!</h2>
 							<p>Black Label Gourmet carefully selected each ingredient in order to produce a wholesome and great tasting seaweed snack.
 								<br/><br/>We only use 2 colors in our package - black and white.
 								<br/><br/>Black represents seaweed and white represents salt. This demonstrates our principle to exclude everything else from our product besides seaweed, salt and olive oil.</p>
-							{/*<iframe classname="iframe" src="https://docs.google.com/gview?url=https://docs.google.com/presentation/d/1YidaytEcGZWmQlAADBD_8FpCNtUtzUVc-Sj1dAE6M2c/edit#slide=id.p9&embedded=true" frameborder="0"></iframe>
-							<p><a className="btn btn-default" href="#" role="button">View details »</a></p>*/}
+							<iframe classname="iframe" src="https://docs.google.com/gview?url=https://docs.google.com/presentation/d/1YidaytEcGZWmQlAADBD_8FpCNtUtzUVc-Sj1dAE6M2c/edit#slide=id.p9&embedded=true" frameborder="0"></iframe>
+							<p><a className="btn btn-default" href="#" role="button">View details »</a></p>
 						</div>
 						<div className="col-xs-6 col-lg-4">
 							<h2>Source of Black Label Gourmet: Seocheon Region</h2>
@@ -55,7 +55,7 @@ const Main = (props) => {
 							<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 							<p><a className="btn btn-default" href="#" role="button">View details »</a></p>
 						</div>
-					</div>
+					</div>*/}
 				</div>
 
 				<div className="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
@@ -87,7 +87,7 @@ const Main = (props) => {
 			<hr />
 
 			<footer>
-				<p>RICOLOCO  INC.</p>
+				<p>For further information, please contact moon@blgourmet.com</p>
 			</footer>
 
 		</div>
