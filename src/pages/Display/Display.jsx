@@ -5,7 +5,7 @@ import Main from '../../components/Main/Main'
 const Display = (props) => {
 	return(
 		<Switch>
-			<Route exact path="/seaweed" render={(props)=> <Main {...props} />} />
+			<Route exact path="/" render={(props)=> <Main {...props} />} />
 		</Switch>
 	)
 }
